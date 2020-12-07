@@ -1,0 +1,27 @@
+version: "3.7"
+services:
+  service-db:
+    restart: always
+    image: zhasst/kc-db:latest
+    #network_mode: bridge
+    ports:
+      - "8083:3306"
+    container_name: container-db
+    volumes:
+      #- "./config/my.cnf:/etc/my.cnf"
+      - "./storage:/var/lib/mysql"
+      - "./var/log/mysql:/var/log/mysql"
+      - "./mysql-sock:/var/sock/mysqld"
+    environment:
+      MYSQL_ROOT_PASSWORD: "12345678"
+      TIMEZONE: "Asia/Almaty"
+      MYSQL_GENERAL_LOG: "1"
+    networks:
+      - kc-net
+networks:
+  kc-net:
+    external:
+      name: kc-net
+      
+      
+      
