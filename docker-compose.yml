@@ -10,7 +10,7 @@ services:
     volumes:
       #- "./config/my.cnf:/etc/my.cnf"
       - "./storage:/var/lib/mysql"
-      - "./var/log/mysql:/var/log/mysql"
+      - "./log/mysql:/var/log/mysql"
       - "./mysql-sock:/var/sock/mysqld"
     environment:
       MYSQL_ROOT_PASSWORD: "12345678"
