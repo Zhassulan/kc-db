@@ -131,3 +131,68 @@ Version: '5.5.59-log'  socket: '/var/sock/mysqld/mysqld.sock'  port: 3306  MySQL
 201217 19:35:58 [Note] Event Scheduler: Loaded 0 events
 201217 19:35:58 [Note] mysqld: ready for connections.
 Version: '5.5.59-log'  socket: '/var/sock/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+201217 19:52:33 [Note] mysqld: Normal shutdown
+
+201217 19:52:33 [Note] Event Scheduler: Purging the queue. 0 events
+201217 19:52:35 [Warning] mysqld: Forcing close of thread 41  user: 'kc'
+
+201217 19:52:35 [Warning] mysqld: Forcing close of thread 40  user: 'kc'
+
+201217 19:52:35 [Warning] mysqld: Forcing close of thread 39  user: 'kc'
+
+201217 19:52:35 [Warning] mysqld: Forcing close of thread 38  user: 'kc'
+
+201217 19:52:35 [Warning] mysqld: Forcing close of thread 37  user: 'kc'
+
+201217 19:52:35 [Warning] mysqld: Forcing close of thread 36  user: 'kc'
+
+201217 19:52:35 [Warning] mysqld: Forcing close of thread 35  user: 'kc'
+
+201217 19:52:35 [Warning] mysqld: Forcing close of thread 34  user: 'kc'
+
+201217 19:52:35 [Warning] mysqld: Forcing close of thread 33  user: 'kc'
+
+201217 19:52:35 [Warning] mysqld: Forcing close of thread 32  user: 'kc'
+
+201217 19:52:35  InnoDB: Starting shutdown...
+201217 19:52:37  InnoDB: Shutdown completed; log sequence number 17680643
+201217 19:52:37 [Note] mysqld: Shutdown complete
+
+201218 16:48:45 [Note] Plugin 'FEDERATED' is disabled.
+201218 16:48:45 InnoDB: The InnoDB memory heap is disabled
+201218 16:48:45 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+201218 16:48:45 InnoDB: Compressed tables use zlib 1.2.3
+201218 16:48:45 InnoDB: Using Linux native AIO
+201218 16:48:45 InnoDB: Initializing buffer pool, size = 128.0M
+201218 16:48:45 InnoDB: Completed initialization of buffer pool
+201218 16:48:46 InnoDB: highest supported file format is Barracuda.
+201218 16:48:52  InnoDB: Waiting for the background threads to start
+201218 16:48:53 InnoDB: 5.5.59 started; log sequence number 17680643
+201218 16:48:53 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+201218 16:48:53 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+201218 16:48:53 [Note] Server socket created on IP: '0.0.0.0'.
+201218 16:48:54 [Warning] 'proxies_priv' entry '@ root@ce6c4497b716' ignored in --skip-name-resolve mode.
+201218 16:49:02 [Note] Event Scheduler: Loaded 0 events
+201218 16:49:02 [Note] mysqld: ready for connections.
+Version: '5.5.59-log'  socket: '/var/sock/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+201219 14:54:59 [Note] mysqld: Normal shutdown
+
+201219 14:54:59 [Note] Event Scheduler: Purging the queue. 0 events
+201219 14:55:02  InnoDB: Starting shutdown...
+201219 14:55:50 [Note] Plugin 'FEDERATED' is disabled.
+201219 14:55:50 InnoDB: The InnoDB memory heap is disabled
+201219 14:55:50 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+201219 14:55:50 InnoDB: Compressed tables use zlib 1.2.3
+201219 14:55:50 InnoDB: Using Linux native AIO
+201219 14:55:50 InnoDB: Initializing buffer pool, size = 128.0M
+201219 14:55:50 InnoDB: Completed initialization of buffer pool
+201219 14:55:50 InnoDB: highest supported file format is Barracuda.
+201219 14:55:52  InnoDB: Waiting for the background threads to start
+201219 14:55:53 InnoDB: 5.5.59 started; log sequence number 17729258
+201219 14:55:53 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+201219 14:55:53 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+201219 14:55:53 [Note] Server socket created on IP: '0.0.0.0'.
+201219 14:55:53 [Warning] 'proxies_priv' entry '@ root@ce6c4497b716' ignored in --skip-name-resolve mode.
+201219 14:55:57 [Note] Event Scheduler: Loaded 0 events
+201219 14:55:57 [Note] mysqld: ready for connections.
+Version: '5.5.59-log'  socket: '/var/sock/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
